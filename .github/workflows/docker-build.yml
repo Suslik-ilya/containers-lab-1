@@ -6,9 +6,13 @@ on:
   pull_request:
     branches: [ main, master ]
 
+#env: 
+#  REGISTRY: ghcr.io
+#  IMAGE_NAME: ${{ github.repository }} Я заменил на жесткую привязку к моему репозиторию, проблему в заглавной букве была
+
 env:
   REGISTRY: ghcr.io
-  IMAGE_NAME: ${{ github.repository }}
+  IMAGE_NAME: suslik-ilya/containers-lab-1
 
 jobs:
   build:
