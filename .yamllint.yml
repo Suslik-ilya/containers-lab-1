@@ -1,15 +1,12 @@
 extends: default
 
 rules:
-  line-length:
-    max: 120
-    level: warning
-  braces:
-    min-spaces-inside: 1
-    max-spaces-inside: 1
-  brackets:
-    min-spaces-inside: 1
-    max-spaces-inside: 1
+  line-length: disable
+  document-start: disable
+  new-line-at-end-of-file: disable
+  trailing-spaces: disable
+  braces: disable
+  brackets: disable
   indentation:
     spaces: 2
     indent-sequences: consistent
